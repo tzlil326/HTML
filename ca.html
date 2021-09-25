@@ -1,0 +1,209 @@
+<html>
+<head> 
+	<title>מחברת סיכומים דיגיטלית לQA המתחיל</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  float: right;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body style="background-color:#a5a5db;" dir="rtl">
+  <div dir="RTL">
+
+<ul>
+  <li><a href="index.html">דף ראשי</a></li>
+  <li><a href="html.html">שפת HTML</a></li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">סוגי בדיקות ומושגים</a>
+    <div class="dropdown-content">
+      <a href="aa.html">תהליך בדיקות</a>
+      <a href="ab.html">ילקוט בדיקות ומושגים</a>
+      <a href="ac.html">סוגי תוכנות</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">מתודולוגיות בדיקה וניתוח איפיונים</a>
+    <div class="dropdown-content">
+      <a href="ba.html">מתודולוגיות בדיקות תוכנה</a>
+      <a href="bb.html">ניתוח איפיונים ,קריאת אפיון</a>
+      <a href="bc.html">חילוץ עץ דרישות</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">מסמכי בדיקות</a>
+    <div class="dropdown-content">
+      <a href="ca.html">STP</a>
+      <a href="cb.html">STD</a>
+      <a href="cc.html">STR</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">דיווח וניהול תקלות, סגירת בדיקות ומסמכי סיכום</a>
+    <div class="dropdown-content">
+      <a href="da.html">מהו באג ואיך מדווחים על באג</a>
+      <a href="db.html">סטטוס הבאג</a>
+	  <a href="dc.html">שלבים בביצוע בדיקות ודיווח תקלות</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">ניהול בדיקות</a>
+    <div class="dropdown-content">
+      <a href="ea.html">תיעדוף בדיקות, בדיקות מונחות סיכון</a>
+      <a href="eb.html">JIRA -תוכנה לניהול באגים</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">SQL</a>
+    <div class="dropdown-content">
+      <a href="fa.html">מה זה SQL</a>
+      <a href="fb.html">שפת SQL</a>
+      <a href="fc.html">איחוד טבלאות</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">טכנולוגיות Web</a>
+    <div class="dropdown-content">
+      <a href="ga.html">התפתחות עולם האינטרנט</a>
+      <a href="gb.html">סוגי אתרים</a>
+      <a href="gc.html">ניתוח אתרים והקמת תוכנית בדיקות</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">בדיקות מובייל</a>
+    <div class="dropdown-content">
+      <a href="ha.html">מבוא לבדיקות מובייל</a>
+      <a href="hb.html">הנחיות של בדיקות מובייל </a>
+    </div>
+  </li>
+</ul>
+</div>
+<br />
+<center><b><font style="font-size:35px;font-weight:bold;">STP- Software Test Plan</b></font>
+<br/><br/>
+<font color="red" style="font-size:20px;font-weight:bold;">מסמך תכנון בדיקות הכולל את הבדיקות המתוכננות ושאינן מתוכננות ,סיכונים ,טכניקות הבדיקה, משאבי הבדיקה אבני הדרך ולו"ז ליישום הבדיקות</font><br/><br/>
+מסמך ניהולי שבדרך כלל נכתב על-ידי ראש צוות QA  הוא תכנון כללי של הפרויקט. בתחילת המסמך יש קוד מסמך בכדי לזהות את המסמך הספציפי הזה מפני שעם הזמן המסמך משתנה לפי דרישות הלקוח.<br/><br/>
+תאריך -התאריך בו קיבלתי את האפיון.<br/><br/>
+מעקב שינויים- שינויים שהיו באפיון ואיך הם באו לידי ביטוי במסמך הזה ספציפית (במסמך שהוא מהגרסה השנייה והלאה.)<br/><br/>
+<font color="red" style="font-size:20px;font-weight:bold;">1.	מטרת המסמך היא הגדרת תוכנית מסגרת לבדיקות שתכלול את כל הנושאים הרלוונטיים לתכנון וביצוע הבדיקות:  <br/></font>
+•	שיטת העבודה המתוכננת לבדיקות המערכת.<br/>
+•	תורת ההתמודדות עם מאגרי הנתונים הנדרשים לביצוע בדיקות (באיזה מאגרים משתמשים אמיתיים או פיקטיביים ? האם יש הסבות נתונים ? )<br/>
+•	ריכוז הממשקים אשר יבדקו במסגרת בדיקות המערכת (Iintegration, Interface)<br/>
+•	"פירוק" היררכי של כל הנושאים הפונקציונליים במערכת (TC) המסמך יבוקר ויאושר על-ידי מנהלי המוצר של המערכת.<br/><br/>
+<font color="red" style="font-size:20px;font-weight:bold;">2.	תיאור המוצר -מספר מילים מה היא המערכת אפשר לקחת מהאיפיון ולרשום בקצרה</font><br/>
+<font color="red" style="font-size:20px;font-weight:bold;">3.	מסמכים ישימים- המסמכים שבהם השתמשתי בכדי להגיע לתכנון הבדיקות הזה</font>.<br/>
+יכול להיות-אפיון ,רשימת דרישות ישנה מהלקוח, הסכמים שהיו עם הלקוח, סיכומי ישיבות, תקנים שצריך להתייחס אליהם בבדיקות שהלקוח ביקש.<br/><br/>
+<font color="red" style="font-size:20px;font-weight:bold;">4.	מונחים ומושגים- מושגים שצריך לפרט מה הם שהלקוח יבין.</font><br/>
+ומונחים שייחודיים ללקוח שהצוות QA יבין מהם.<br/><br/>
+<font color="red" style="font-size:20px;font-weight:bold;">5.	אסטרטגיית בדיקות</font><br/>
+•	אסטרטגיה כללית- איזה בדיקות אנחנו נבצע ואיזה לא (נגיד מה לא נבצע בשביל שיהיה שקיפות מלאה מול המנהלים ומול הלקוח שלא יבואו אלינו בטענות) אפשר לפרט למה<br/>
+•	שיטת עבודה-חלוקת עבודה ,מתכון פעולה.<br/>
+•	לו"ז מתוכנן- אבני דרך באיזה תאריכים הסבבים ,מתי הפסקה וכו'<br/>
+•	תיחום הבדיקות- איזה מודולים נבדוק ואיזה לא בתוך התוכנה.<br/><br/>
+<font color="red" style="font-size:20px;font-weight:bold;">6.	 תחזוקה כללית- קריטריונים לקבלת המערכת לבדיקות </font><br/>
+קריטריון כניסה מבוסס על תוצאות שלבי הביצוע הקודמים לבדיקות. <br/>
+מטרתם למנוע מצבים של אי יציבות ועבודה כפולה.<br/>
+בדרך כלל בדיקות שפיות שהמוצר עובד.<br/>
+צריך לתאר את הקריטריונים.<br/>
+ קריטריונים לאישור המערכת לשלב הבא<br/><br/>
+הקריטריונים מגדירים את ה"קו האדום" להעברת המערכת לשלב הבא, מוגדר לפי:<br/>
+•	מס' התקלות הפתוחות (שלא תוקנו ורמת החומרה שלהן.<br/>
+•	אחוז הבדיקות שבוצעו מתוך הבדיקות שתוכננו.<br/>
+•	אחוז הבדיקות שעברו בהצלחה מתוך הבדיקות שבוצעו.<br/>
+מגדירים את הרף לכל קריטריון.<br/><br/>
+<font color="red" style="font-size:20px;font-weight:bold;">7.	נושאי בדיקה -עץ דרישות</font><br/><br/>
+<font color="red" style="font-size:20px;font-weight:bold;">8.	מיפוי ממשקים ,הסבות ותהליכי BATCH</font><br/>
+•	ממשקים חיצוניים<br/>
+•	ממשקים פנימיים<br/>
+•	מיפוי קבצים להסבות<br/>
+איזה ממשקים חיצוניים יש לנו ואיזה קבצים עוברים הסבה <br/>
+בממשקים מציינים מה זה כל ממשק.<br/>
+האם הוא שולח OUTPUT או מקבל INPUT<br/>
+האם הוא מתבצע באונליין או בbatch  ( onlineקורה כשיוזר עושה משהו<br/>
+ BATCH- קורה באופן קבוע פעם בכמה זמן לפי מה שהוגדר לו מראש לדוגמא שליחת מייל עם משרות למשתמש פעם ביום)<br/><br/>
+<font color="red" style="font-size:20px;font-weight:bold;">9.	נתונים לבדיקה- אמיתיים ,סינטטיים, MIX .</font><br/>
+<font color="red" style="font-size:20px;font-weight:bold;">10.	 דרישות לביצוע הבדיקות </font><br/>
+Hardware- איזה חומרה אני צריך (מדפסת).<br/>
+Software-איזה תוכנות אני צריך (זום).<br/>
+HR -כמה כוח אדם אני צריך ואיזה ניסיון.<br/>
+Other- נושאים נוספים שאני רוצה לדבר איתם על זה שאני צריך אותם.<br/><br/>
+<font color="red" style="font-size:20px;font-weight:bold;">11.	ניהול סיכונים- ראש צוות מגדיר סיכונים אפשריים לפי ניסיון עבר או ידע מסוים ,מגדיר מה הסיכוי שהסיכון הזה יתממש לפי הניסיון המקצועי שלו ,מגדיר מה עוצמת הנזק, מגדיר את חומרת הנזק שהוא בעצם: הסיכוי+ העוצמה.</font><br/>
+פעילות- מגדיר מי האדם שיישא את האחריות מה הוא צריך לעשות ולמי הוא אמור לדווח.<br/><br/>
+<font color="red" style="font-size:20px;font-weight:bold;">12.	טבלת כיסוי- מצב אחד של הטבלה מופיע מה שהופיע באפיון מבחינת נושאים ראשיים מצב שני איך מופיע איך הם באים לידי ביטוי אצלנו בעץ בדיקות.</font><br/>
+טבלה חשובה מאוד שמופיע בסוף הדף לא סתם ! כדי שכולם יחתמו לצידה ויראו שסיכמנו את הכל ועברנו על כל מה שביקשו.<br/>
+<br/><hr><br/>
+
+<font style="font-size:32px;font-weight:bold;">כתיבת תרשים נכונה !</font><br/><br/>
+תרשים מסתמך על מסמך איפיון וכאשר אין לנו מסמך כזה נאתר אדם במערכת  שמתמצא בה, איש צוות פיתוח /נציג משתמשים.<br/>
+אדם זה יהיה סמכות המידע .<br/>
+חשוב ! אין סטנדרט קבוע לתרשים ההחלטה מתבססת על כמה פרמטרים.<br/><br/>
+1.	סוג תוכנה <br/>
+2.	מערכת בתחזוקה או מערכת חדשה<br/>
+3.	מהי נקודת התרופה של המערכת ובכללי מהם הנקודות החשובות של המערכת בכדי להתמקד בהם בתהליך הבדיקה.<br/>
+4.	מה הם דרישותיו של מזמין הבדיקות.<br/>
+5.	האם הפיתוח מתבצע בפעם אחת או בשלבים.<br/>
+6.	הקשר של המערכת הנבדקת לשאר המערכות בארגון.<br/>
+7.	הרמה הנדרשת. האם אלה בדיקות קבלה או בדיקות מסירה.<br/>
+8.	מה הם התנאים כלומר: -מה מצב מעבדת הבדיקות? -האם צריך הכנות מיוחדות?           -יש מספיק כוח אדם? -יש מספיק זמן? <br/>
+-סדר עדיפות הבדיקות
+ -מהיכן יילקחו הנתונים הנדרשים לצורך הבדיקות -האם ישנם נתונים ממערכות נוספות -האם יש צורך בהסבת נתונים? -אם לא קיימים מאגרים האם יש את התשתית וכ"א מיומן שיבנה עבורנו מאגרים סינטטיים?<br/>
+9.	משתמשים- מי הם ? מה הload ?  מה סוגי המשתמשים ?<br/>
+<br/><hr><br/>
+<font style="font-size:35px;font-weight:bold;">3 דרכים להעברת נתונים מה Database הישן (Legacy ל Database החדש)</font><br/><br/>
+1.	As Is– השמות והנתונים עוברים כפי שהם. צריך לבדוק את כמויות הנתונים שהועברו כמו שצריך.<br/>
+2.	Update-העברה עם עדכון ,הוספת נתונים.<br/>
+3.	Transfection(שינוי צורה) -מעבירים את הנתונים בצורה שונה (כמו גוגל תרגום) המעבר הכי קשה בבדיקה. <br/>
+
+
+
+</center>
+
+</body>
+</html>

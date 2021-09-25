@@ -1,0 +1,173 @@
+<html>
+<head> 
+	<title>מחברת סיכומים דיגיטלית לQA המתחיל</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  float: right;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body style="background-color:#a5a5db;" dir="rtl">
+  <div dir="RTL">
+
+<ul>
+  <li><a href="index.html">דף ראשי</a></li>
+  <li><a href="html.html">שפת HTML</a></li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">סוגי בדיקות ומושגים</a>
+    <div class="dropdown-content">
+      <a href="aa.html">תהליך בדיקות</a>
+      <a href="ab.html">ילקוט בדיקות ומושגים</a>
+      <a href="ac.html">סוגי תוכנות</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">מתודולוגיות בדיקה וניתוח איפיונים</a>
+    <div class="dropdown-content">
+      <a href="ba.html">מתודולוגיות בדיקות תוכנה</a>
+      <a href="bb.html">ניתוח איפיונים ,קריאת אפיון</a>
+      <a href="bc.html">חילוץ עץ דרישות</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">מסמכי בדיקות</a>
+    <div class="dropdown-content">
+      <a href="ca.html">STP</a>
+      <a href="cb.html">STD</a>
+      <a href="cc.html">STR</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">דיווח וניהול תקלות, סגירת בדיקות ומסמכי סיכום</a>
+    <div class="dropdown-content">
+      <a href="da.html">מהו באג ואיך מדווחים על באג</a>
+      <a href="db.html">סטטוס הבאג</a>
+	  <a href="dc.html">שלבים בביצוע בדיקות ודיווח תקלות</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">ניהול בדיקות</a>
+    <div class="dropdown-content">
+      <a href="ea.html">תיעדוף בדיקות, בדיקות מונחות סיכון</a>
+      <a href="eb.html">JIRA -תוכנה לניהול באגים</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">SQL</a>
+    <div class="dropdown-content">
+      <a href="fa.html">מה זה SQL</a>
+      <a href="fb.html">שפת SQL</a>
+      <a href="fc.html">איחוד טבלאות</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">טכנולוגיות Web</a>
+    <div class="dropdown-content">
+      <a href="ga.html">התפתחות עולם האינטרנט</a>
+      <a href="gb.html">סוגי אתרים</a>
+      <a href="gc.html">ניתוח אתרים והקמת תוכנית בדיקות</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">בדיקות מובייל</a>
+    <div class="dropdown-content">
+      <a href="ha.html">מבוא לבדיקות מובייל</a>
+      <a href="hb.html">הנחיות של בדיקות מובייל </a>
+    </div>
+  </li>
+</ul>
+</div>
+<br />
+<center><b><font style="font-size:35px;font-weight:bold;">תהליך בדיקות</b></center></font>
+<br /><center>
+<font color="red" style="font-size:18px;font-weight:bold;">בחלק הראשון אנו מתחילים באפיון FD ושואלים את עצמנו – <br /><br /></font>
+1.	מה סוג התוכנה <br />
+2.	מה מהות המוצר <br />
+3.	למי המיוצר מיועד  <br />
+4.	פערים ובעיות <br />
+5.	שושים (שיפורים ושינויים ) <br /><br />
+<font color="red" style="font-size:18px;font-weight:bold;">החלק השני הוא החלק שבו אנו פוגשים את דרישות הלקוח  בתוך האפיון ומתרגמים אותו לעץ דרישות. <br />	 <br /></font>
+אז מה אני בעצם מחפש באפיון ? <br /><br />
+אני מחפש בתוך האפיונים האלה מקום שבו האנאליסט (איש מערכות מידע, כותב האיפיון) פירט לי בצורה יותר מפורטת את דרישות הלקוח בדרך כלל מופיע כרשימה שנקראת <br />
+ SRS (Software Requirements Specification) <br />
+עץ דרישות הוא בעצם פירוט פונקציות המערכת. הלקוח מציג בפני האנליסט בעיה והאנאליסט נותן לו פתרון טכנולוגי ולפי דרישות הלקוח האנאליסט מתרגם אותם לפונקציות במערכת. <br />
+וברגע שאנחנו יודעים מה הדרישות של הלקוח ואנחנו יודעים לזהות אותם , מגיעים לחלק השלישי שבו בונים מסמך של STP.  <br />
+<br />
+<font color="red" style="font-size:18px;font-weight:bold;">STP- Software Test Plan<br /></font>
+תוכנית בדיקות -מסמך בו מפורטות הבדיקות המתוכננות ושאינן מתוכננות.<br />
+סיכונים, טקטיקות, הבדיקה ,משאבים, אבני דרך ולו"ז ליישום הבדיקות.<br />
+.<br />
+<br />
+מתוך הSTP אנו מזהים את כל הדרישות אותם אנו רוצים לבדוק ,סוגי בדיקות שהתאמנו למערכת  שנרצה לעשות ואת הזמני עבודה שלנו אותם דרישות יומרו לטובת תסר<br />
+יטאי בדיקה שנקראים TC והכל יתנקז לחלק הרביעי מסמך הנקרא STD<br />
+הTC האלו בעצם ייקחו כל דרישה וינסו לתקוף אותה הן מהצד החיובי והן מהצד השלילי בשביל לראות שהמערכת עושה את מה שהיא צריכה לעשות ולא עושה את מה שהיא לא צריכה לעשות.<br />
+לפעמים אם רלוונטי נשתמש ב(SQL) TC <br />
+<br />
+<font color="red" style="font-size:18px;font-weight:bold;">STD-Software Tast Description<br /></font>
+אוסף מסמכי התכנון המפורט של הבדיקות הכוללים את תרחישי הבדיקות נתוני הקלט והתוצאות הצפויות.<br />
+<br />
+לאחר הSTD אנחנו מגיעים למצב שיש לנו מלאי של בדיקות ואנחנו מסדרים אותו לפי סבבים<br />
+ "CYCLE"(סבבי בדיקה) שזהו בעצם החלק החמישי שבו אנחנו נכנסים לסבבי בדיקות ,בדרך כלל סביבות ה5-6 סבבים לפעמים יותר.<br />
+בתוך הסבבי בדיקות מריצים את התרחישי בדיקות שהכנו מראש בכך שכל בודק מקבל SET TEST (ערכת בדיקות) והוא צריך להריץ את הבדיקות שקיבל.<br />
+כאשר יש פער בין התוצאה הצפויה לתוצאה בפועל מדווחים על תקלה.<br />
+אוסף התקלות שנמצאו מצטבר לנו במערכת.<br />
+ המטרה שלנו היא כמובן שכולם יתוקנו כמו שצריך.<br />
+ <br />
+<font color="red" style="font-size:18px;font-weight:bold;">כל התוצאות מתנקזות לנו לדו"ח שנקרא STR החלק השישי שבו אנו נספר מה בוצע ,איזה בדיקות עשינו ,ומה התוצאות של המהלך ,כלומר ,איך אנחנו עומדים מבחינת המוצר, כולל מסקנות ,המלצות לשיפור,</font>
+ <br />
+והכי חשוב החלטה ברורה אם המערכת שלו מתאימה להמשיך קדימה לשלב הבאה או האם צריך לחזור לסבב נוסף של תחזוקה תיקונים ושיפורים. <br />
+<font color="red" style="font-size:30px;font-weight:bold;">הSTR נותן מענה להחלטה סופית מה קורה עם המוצר!!!</font>
+
+
+</center>
+
+</body>
+</html>
